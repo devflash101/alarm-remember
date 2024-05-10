@@ -14,7 +14,7 @@ def show_reminder():
     root.destroy()
 
 def main():
-    while True:
+    while "My teeth is not clean":
         show_reminder()
         # Wait for 10 minutes
         time.sleep(10 * 60)
